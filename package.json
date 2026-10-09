@@ -1,7 +1,9 @@
 {
   "name": "lighthouse",
+  "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@playwright/cli": "0.1.22",
     "turbo": "^2.3.3",
     "typescript": "^5.7.2"
   },
@@ -12,7 +14,9 @@
     "build": "turbo build",
     "typecheck": "turbo typecheck",
     "lint": "turbo lint",
-    "test": "turbo test"
+    "test": "turbo test",
+    "design:browser": "playwright-cli",
+    "design:detect": ".agents/skills/impeccable/scripts/impeccable detect"
   },
   "workspaces": ["apps/*", "packages/*"]
 }

@@ -2,6 +2,7 @@
 @import "@manovaspace/tokens/fonts.css";
 @import "@manovaspace/tokens/tokens.css";
 @import "@manovaspace/ui/styles.css";
+@import "./lighthouse-tokens.css";
 @import "../components/harbor/harbor.css";
 
 @custom-variant dark (&:is(.dark *));
@@ -36,4 +37,53 @@
   --color-status-warning-foreground: var(--status-warning-foreground);
   --color-status-danger: var(--status-danger);
   --color-status-danger-foreground: var(--status-danger-foreground);
+
+  /* ── Lighthouse domain tokens ── */
+
+  /* World — landmark stages */
+  --color-lh-world-dormant: var(--lh-world-dormant);
+  --color-lh-world-dormant-bg: var(--lh-world-dormant-bg);
+  --color-lh-world-restoration: var(--lh-world-restoration);
+  --color-lh-world-restoration-bg: var(--lh-world-restoration-bg);
+  --color-lh-world-operational: var(--lh-world-operational);
+  --color-lh-world-operational-bg: var(--lh-world-operational-bg);
+  --color-lh-world-flourishing: var(--lh-world-flourishing);
+  --color-lh-world-flourishing-bg: var(--lh-world-flourishing-bg);
+
+  /* Ocean */
+  --color-lh-ocean-deep: var(--lh-ocean-deep);
+  --color-lh-ocean-mid: var(--lh-ocean-mid);
+  --color-lh-ocean-light: var(--lh-ocean-light);
+  --color-lh-ocean-surface: var(--lh-ocean-surface);
+
+  /* Lumen */
+  --color-lh-lumen: var(--lh-lumen);
+  --color-lh-lumen-light: var(--lh-lumen-light);
+  --color-lh-lumen-bg: var(--lh-lumen-bg);
+
+  /* Keeper ranks */
+  --color-lh-rank-apprentice: var(--lh-rank-apprentice);
+  --color-lh-rank-apprentice-bg: var(--lh-rank-apprentice-bg);
+  --color-lh-rank-beacon: var(--lh-rank-beacon);
+  --color-lh-rank-beacon-bg: var(--lh-rank-beacon-bg);
+  --color-lh-rank-signal: var(--lh-rank-signal);
+  --color-lh-rank-signal-bg: var(--lh-rank-signal-bg);
+  --color-lh-rank-navigator: var(--lh-rank-navigator);
+  --color-lh-rank-navigator-bg: var(--lh-rank-navigator-bg);
+  --color-lh-rank-steward: var(--lh-rank-steward);
+  --color-lh-rank-steward-bg: var(--lh-rank-steward-bg);
+
+  /* Assessment states */
+  --color-lh-draft: var(--lh-draft);
+  --color-lh-draft-bg: var(--lh-draft-bg);
+  --color-lh-published: var(--lh-published);
+  --color-lh-published-bg: var(--lh-published-bg);
+  --color-lh-revised: var(--lh-revised);
+  --color-lh-revised-bg: var(--lh-revised-bg);
+  --color-lh-awaiting: var(--lh-awaiting);
+  --color-lh-awaiting-bg: var(--lh-awaiting-bg);
+
+  /* Shadows */
+  --shadow-lh-lumen: var(--lh-shadow-lumen);
+  --shadow-lh-world: var(--lh-shadow-world);
 }

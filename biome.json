@@ -20,6 +20,14 @@
     "formatter": { "quoteStyle": "double", "semicolons": "always" }
   },
   "files": {
-    "ignore": ["**/node_modules/**", "**/.next/**", "**/dist/**"]
+    "ignore": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/dist/**",
+      ".agents/skills/**",
+      "scripts/build_system_canvas.js",
+      "scripts/generate_level1_foundations.js",
+      "scripts/step1_colors_and_styles.js"
+    ]
   }
 }

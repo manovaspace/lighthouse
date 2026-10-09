@@ -8,6 +8,16 @@ Keep entries concise, dense, and factual.
 
 # apps/
 
+## [workspace.manova]
+- **Path**: `~/Dev/Manova/clients/manova/lighthouse/`
+- **Repo**: `git@github.com:manovaspace/lighthouse.git`
+- **Short**: Independent public product repository in the Manova multi-repo workspace.
+- **Card**:
+  Relocated from ~/Dev/aputir/lighthouse on 2026-10-05 with Git history and local work preserved.
+  Existing stack, app/package boundaries, course domain, and dev port remain current.
+  Runtime integration with other Manova products requires separate review.
+- **See**: docs/guides/manova-workspace.md
+
 ## [apps.web]
 - **Aliases**: web, frontend, next, nextjs, harbor, website, aput.ir
 - **Path**: `apps/web/`
@@ -62,6 +72,22 @@ Keep entries concise, dense, and factual.
   Adds domain components: LandmarkStageBadge.
   Lighthouse-specific theming via globals.css `@theme inline` binding.
   Stack: @manovaspace/ui, @manovaspace/tokens, React 19, Tailwind CSS v4.
+
+# Agent Tooling
+
+## [tooling.frontend-skills]
+- **Aliases**: design-skills, frontend-design, impeccable, playwright, accessibility, ui-review
+- **Paths**: `.agents/skills/`, `.codex/config.toml`, `.codex/hooks.json`, `.playwright/cli.config.json`
+- **Short**: Six repository-local frontend skills, shadcn MCP, Playwright CLI, and Impeccable detector.
+- **Card**:
+  Anthropic Frontend Design; Vercel Web Design Guidelines, React Best Practices, and Composition Patterns;
+  Microsoft Playwright CLI; Impeccable. Playwright CLI is an exact-version root dev dependency.
+  Official shadcn MCP pinned to `shadcn@4.21.1` in project-local Codex configuration.
+  Restart Codex in this trusted repository to load it; inspect `@lighthouse/ui` before adding components.
+  Commands: `bun run design:browser --help`, `bun run design:detect <path>`.
+  Impeccable Codex hooks require one-time user approval through `/hooks`.
+  Chromium and the Impeccable engine are machine-local downloads; browser artifacts are ignored.
+- **See**: .agents/skills/README.md
 
 # Domain Model
 
