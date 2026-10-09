@@ -1,0 +1,110 @@
+/*
+ * Lighthouse domain tokens — extends @manovaspace/tokens
+ * Source of truth: docs/design/tokens.json
+ * Auto-sync: update this file when tokens.json changes.
+ *
+ * Does NOT redefine base shadcn vars (--background, --primary, --border, etc.)
+ * those come from @manovaspace/tokens/tokens.css imported in globals.css.
+ */
+
+/* ─── Light mode (default) ────────────────────────────────────────────── */
+:root {
+  /* World — landmark stages */
+  --lh-world-dormant: #64748b;
+  --lh-world-dormant-bg: #f1f5f9;
+  --lh-world-restoration: #0ea5e9;
+  --lh-world-restoration-bg: #e0f2fe;
+  --lh-world-operational: #10b981;
+  --lh-world-operational-bg: #ecfdf5;
+  --lh-world-flourishing: #8b5cf6;
+  --lh-world-flourishing-bg: #f5f3ff;
+
+  /* Ocean palette (harbor map background layers) */
+  --lh-ocean-deep: #0c1a3e;
+  --lh-ocean-mid: #1e3a6e;
+  --lh-ocean-light: #3b5ea6;
+  --lh-ocean-surface: #7ba3d4;
+
+  /* Lumen — the in-world currency */
+  --lh-lumen: #f59e0b;
+  --lh-lumen-light: #fde68a;
+  --lh-lumen-bg: #fffbeb;
+  --lh-lumen-glow: rgba(245, 158, 11, 0.4);
+
+  /* Keeper ranks */
+  --lh-rank-apprentice: #64748b;
+  --lh-rank-apprentice-bg: #f1f5f9;
+  --lh-rank-beacon: #0ea5e9;
+  --lh-rank-beacon-bg: #e0f2fe;
+  --lh-rank-signal: #10b981;
+  --lh-rank-signal-bg: #ecfdf5;
+  --lh-rank-navigator: #8b5cf6;
+  --lh-rank-navigator-bg: #f5f3ff;
+  --lh-rank-steward: #f59e0b;
+  --lh-rank-steward-bg: #fffbeb;
+
+  /* Assessment states */
+  --lh-draft: #94a3b8;
+  --lh-draft-bg: #f8fafc;
+  --lh-published: #10b981;
+  --lh-published-bg: #ecfdf5;
+  --lh-revised: #f59e0b;
+  --lh-revised-bg: #fffbeb;
+  --lh-awaiting: #cbd5e1;
+  --lh-awaiting-bg: #f8fafc;
+
+  /* Shadows */
+  --lh-shadow-lumen: 0 0 24px 6px rgba(245, 158, 11, 0.4);
+  --lh-shadow-world: 0 0 40px 8px rgba(14, 165, 233, 0.25);
+}
+
+/* ─── Dark mode ────────────────────────────────────────────────────────── */
+.dark {
+  /* World — landmark stages */
+  --lh-world-dormant: #475569;
+  --lh-world-dormant-bg: #1e293b;
+  --lh-world-restoration: #38bdf8;
+  --lh-world-restoration-bg: #082f49;
+  --lh-world-operational: #34d399;
+  --lh-world-operational-bg: #022c22;
+  --lh-world-flourishing: #a78bfa;
+  --lh-world-flourishing-bg: #2e1065;
+
+  /* Ocean palette */
+  --lh-ocean-deep: #020b18;
+  --lh-ocean-mid: #0c1a3e;
+  --lh-ocean-light: #1e3a6e;
+  --lh-ocean-surface: #2d5a8e;
+
+  /* Lumen */
+  --lh-lumen: #fbbf24;
+  --lh-lumen-light: #fde68a;
+  --lh-lumen-bg: #1c1200;
+  --lh-lumen-glow: rgba(251, 191, 36, 0.4);
+
+  /* Keeper ranks */
+  --lh-rank-apprentice: #94a3b8;
+  --lh-rank-apprentice-bg: #1e293b;
+  --lh-rank-beacon: #38bdf8;
+  --lh-rank-beacon-bg: #082f49;
+  --lh-rank-signal: #34d399;
+  --lh-rank-signal-bg: #022c22;
+  --lh-rank-navigator: #a78bfa;
+  --lh-rank-navigator-bg: #2e1065;
+  --lh-rank-steward: #fbbf24;
+  --lh-rank-steward-bg: #1c1200;
+
+  /* Assessment states */
+  --lh-draft: #64748b;
+  --lh-draft-bg: #1e293b;
+  --lh-published: #34d399;
+  --lh-published-bg: #022c22;
+  --lh-revised: #fbbf24;
+  --lh-revised-bg: #1c1200;
+  --lh-awaiting: #334155;
+  --lh-awaiting-bg: #1e293b;
+
+  /* Shadows */
+  --lh-shadow-lumen: 0 0 24px 6px rgba(251, 191, 36, 0.4);
+  --lh-shadow-world: 0 0 40px 8px rgba(56, 189, 248, 0.25);
+}

@@ -58,7 +58,7 @@ bun --filter @lighthouse/db run db:push       # Push to dev Neon branch
 
 ```bash
 # 1. Clone
-git clone https://github.com/aputir/lighthouse
+git clone https://github.com/manovaspace/lighthouse
 cd lighthouse
 
 # 2. Install
@@ -92,3 +92,5 @@ bun run dev
 ## Agent Instructions
 
 Agents: read `AGENTS.md` first. Load `docs/guides/agent-routing.yaml` to find relevant docs for the task. Respect context budget tiers. Update `WORKSPACE_INDEX.md` if you add or remove any app/package.
+
+For the Manova workspace layout and migration context, see [Manova workspace](manova-workspace.md).

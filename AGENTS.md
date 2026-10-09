@@ -1,12 +1,18 @@
-# Lighthouse — Harbor World (aputir)
+# Lighthouse — Harbor World (Manova)
 
-Monorepo for the APUT course gamification system. Domain: `aput.ir`. GitHub Org: `aputir`.
+Monorepo for the APUT course gamification system, maintained in the Manova ecosystem.
+Repository: `github.com/manovaspace/lighthouse`. Existing course domain: `aput.ir`.
+Workspace: `~/Dev/Manova/clients/manova/lighthouse`.
 
 > AP course — University of Tehran, CS Department — Autumn 2026
 
 ---
 
 ## Routing
+
+For workspace-wide work, open `~/Dev/Manova` and read its `AGENTS.md` first.
+For standalone public contributions, this repository's instructions remain sufficient.
+See `docs/guides/manova-workspace.md` for the relocation and integration boundary.
 
 Read `docs/guides/agent-routing.yaml` once per Research phase. Path globs first, then keywords.
 
@@ -101,6 +107,11 @@ Assessment.published → triggers LumenDelta → LandmarkState update → ShipLo
 - **Conventional Commits:** `feat:`, `fix:`, `refactor:`, `docs:`, `chore:`
 - **Biome** for formatting and linting — run `bun run lint` before PR
 - **Ask before commit** unless the user explicitly requested a commit
+
+## Frontend Skills
+
+For UI design, implementation, or review, read [the frontend skills guide](.agents/skills/README.md)
+for repository-local skill selection, browser commands, and design-system precedence.
 
 ## Agent Subagent Tiering
 
